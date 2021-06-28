@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class RandomLoadBalance implements LoadBalance{
     public String select(List<String> urls) {
-        return null;
+        //TODO
+        return urls.get(0);
     }
 }
